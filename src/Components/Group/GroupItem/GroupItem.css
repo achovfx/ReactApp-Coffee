@@ -1,0 +1,29 @@
+.groupItem-container {
+    width: 220px;
+    height: 225px;
+    background: rgb(37, 24, 26);
+    background: linear-gradient(45deg, rgba(37, 24, 26, 1) 50%, rgba(125, 86, 71, 1) 130%);
+    border-radius: 14px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F8E4BE;
+    cursor: pointer;
+}
+
+.groupItem-container:hover {
+    background: linear-gradient(45deg, rgba(37, 24, 26, 1) 50%, rgba(125, 86, 71, 1) 100%);
+}
+
+.groupItem-container>.img>img {
+    transition-duration: .3s;
+    transition-property: scale;
+}
+
+.groupItem-container:hover>.img>img {
+    scale: 1.1;
+    transition-duration: .3s;
+    transition-property: scale;
+}

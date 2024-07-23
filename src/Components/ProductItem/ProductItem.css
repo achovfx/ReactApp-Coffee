@@ -1,0 +1,83 @@
+.productItem-container {
+    width: 280px;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.productItem-container .top {
+    width: 100%;
+    height: 364px;
+    border: 1px solid #F9C06A;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 0px 2px 13px -1px rgba(0, 0, 0, .288);
+    -moz-box-shadow: 0px 2px 13px -1px rgba(0, 0, 0, .288);
+    box-shadow: 0px 2px 13px -1px rgba(0, 0, 0, 0.288);
+    transition-property: box-shadow;
+    transition-duration: .3s;
+}
+
+.productItem-container:hover>.top {
+    -webkit-box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0px 3px 13px -1px rgba(0, 0, 0, .3);
+    box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.3);
+    transition-property: box-shadow;
+    transition-duration: .3s;
+}
+
+.productItem-container .top .details {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 15px;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+}
+
+.productItem-container .top .details h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.productItem-container .top .details p {
+    font-size: 14px;
+    direction: rtl;
+}
+
+.productItem-container .top .details h4:last-child {
+    font-size: 16px;
+    display: flex;
+    gap: 5px;
+}
+
+.productItem-container .buy a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #1E1E1E;
+    background-color: #F9C06A;
+    padding: 15px 35px;
+    border-radius: 24px;
+    width: 134px;
+    text-align: center;
+    height: 48px;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    transition-duration: .2s;
+    transition-property: color, background-color;
+}
+
+.productItem-container .buy a:hover {
+    background-color: #1E1E1E;
+    color: #F9C06A;
+    transition-duration: .2s;
+    transition-property: color, background-color;
+}

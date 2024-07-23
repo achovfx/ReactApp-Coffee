@@ -1,0 +1,25 @@
+.comments-container {
+    width: 100%;
+    max-width: 1440px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    /* background-color: red; */
+}
+
+.comments-container .title h2 {
+    color: #603809;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.comments-container .CommentsList {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    gap: 75px 30px;
+}

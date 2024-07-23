@@ -1,0 +1,12 @@
+* {
+    font-family: "A Iranian Sans";
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 71px;
+}

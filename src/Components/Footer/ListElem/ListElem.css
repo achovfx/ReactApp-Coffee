@@ -1,0 +1,32 @@
+.listElem-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    color: #DABB9E;
+    font-size: 14px;
+    direction: rtl;
+    gap: 40px;
+}
+
+.listElem-container ul {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.listElem-container ul li a {
+    color: #DABB9E;
+    text-decoration: none;
+    transition-property: padding, color;
+    transition-duration: .2s;
+}
+
+.listElem-container ul li:hover>a {
+    color: #ffdbb8;
+    text-decoration: none;
+    padding-right: 10px;
+    transition-property: padding, color;
+    transition-duration: .2s;
+}

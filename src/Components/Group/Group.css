@@ -1,0 +1,24 @@
+.group-container {
+    width: 100%;
+    max-width: 1440px;
+    height: 301px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.group-container .title h2 {
+    color: #603809;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.group-container .groupList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
